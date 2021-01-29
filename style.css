@@ -1,0 +1,70 @@
+h1{
+    color: rgb(0, 4, 255);
+    font-family:Georgia;
+    font-size: 100px;
+    font-style: italic, oblique;
+}
+
+body{
+    padding: 0%;
+    
+}
+
+
+b{
+font-size: 60px;
+color: rgb(61, 0, 117);
+
+}
+p{
+font-size: 40px;
+color:rgb(11, 126, 7);
+}
+i{
+font-size: 40px;
+color: rgb(134, 9, 103);
+}
+li{
+font-size: 30px;
+color:rgb(161, 52, 8);
+}
+
+.header{
+font-size: 50px;
+display: flex;
+    justify-content: space-around;
+}
+#scrollToTopBtn {
+position:fixed;
+width:60px;
+height:60px;
+bottom:40px;
+right:40px;
+background-color:#0C9;
+color:#FFF;
+border-radius:50px;
+text-align:center;
+}
+
+.Main
+{
+    display: flex;
+    align-content: stretch;
+}
+ 
+
+hr{
+    padding: 0%;
+}
+
+.item{
+    position:relative;
+    margin-right: 60%;
+  
+    
+}
+
+.item:hover{
+    transform: scale(1.05);
+    
+}
